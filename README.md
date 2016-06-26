@@ -1,6 +1,30 @@
-frontend-nanodegree-arcade-game
+* frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+** Setup
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Please open the index.html file with a modern web browser as such Google Chrome (tested on version 51.x).
+
+** Game play
+
+The object of the game is to move the character from the lower row of green grass to the water at the top. Sure no to hit any of the bugs move along the road. 
+
+*** Controls
+
+* ↑ - Moves the character towards the top of the screen
+* ↓ - Moves the character towards the bottom of the screen
+* → - Moves the character towards the right of the screen
+* ← - Moves the character towards the left of the screen
+
+*** Scoring and Time
+
+Each game round is limited to 60 seconds. Each time your character reaches the water you gain one point. Each time your character hits a bug you lose a point.
+
+*** Hints
+
+* Stay to the center/right of the screen so that you have the most time to react to the bugs
+* Bugs change speed each time they move across the screen
+* Bugs never change rows
+* There will never be more than 4 bugs on the screen
+
+GOOD LUCK!
